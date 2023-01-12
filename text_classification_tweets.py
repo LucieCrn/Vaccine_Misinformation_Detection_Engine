@@ -12,6 +12,7 @@ Original file is located at
 import pip
 pip.main(["install","scikit-learn"])
 pip.main(["install","matplotlib"])
+pip.main(["install","xlrd"])
 import pandas as pd
 import os
 import re

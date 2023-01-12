@@ -5,6 +5,8 @@ Created on Fri Jun 17 10:58:51 2022
 
 @author: Lucie
 """
+import pip
+pip.main(["install","nltk.corpus"])
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 import os 

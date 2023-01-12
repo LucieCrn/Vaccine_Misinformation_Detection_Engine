@@ -114,8 +114,8 @@ def main() :
     page_icon="🔍")
     
 # COLONNE
-    st.sidebar.image(os.path.join(folder_images, "Numerix.png"))
-    st.sidebar.markdown("---")
+    #st.sidebar.image(os.path.join(folder_images, "Numerix.png"))
+    #st.sidebar.markdown("---")
     
     # Select a page 
     menu = st.sidebar.selectbox("Choose a page", ("Project Description", "Tweet Analysis", "Dataset analysis"))

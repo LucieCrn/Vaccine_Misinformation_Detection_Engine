@@ -7,7 +7,7 @@ Created on Fri Jun 17 10:58:51 2022
 """
 import pip
 pip.main(["install","nltk"])
-pip.main(["install","sklearn"])
+pip.main(["install","scikit-learn"])
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 import os 

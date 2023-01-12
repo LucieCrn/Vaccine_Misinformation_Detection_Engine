@@ -9,6 +9,9 @@ Original file is located at
 
 # 1st step: Merging the datasets
 
+import pip
+pip.main(["install","scikit-learn"])
+pip.main(["install","matplotlib"])
 import pandas as pd
 import os
 import re

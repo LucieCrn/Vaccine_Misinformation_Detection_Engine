@@ -14,6 +14,7 @@ pip.main(["install","scikit-learn"])
 pip.main(["install","matplotlib"])
 pip.main(["install","xlrd"])
 pip.main(["install","os"])
+pip.main(["install","pandas"])
 import pandas as pd
 import xlrd
 import os

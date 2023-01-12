@@ -128,7 +128,7 @@ def main() :
         
     # Link Twitter
     st.sidebar.markdown("---")
-    st.sidebar.image(os.path.join(folder_images, "twitter_logo.png"), width=50)
+    st.sidebar.image(open("twitter_logo.png"), width=50)
     st.sidebar.markdown('<a href="http://twitter.com">Twitter</a>', unsafe_allow_html=True)
     
     # Our names

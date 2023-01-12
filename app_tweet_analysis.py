@@ -112,28 +112,29 @@ def main() :
     st.set_page_config(layout="wide",
     page_title="Tweet Analysis",
     page_icon="🔍")
+    page_analysis()
     
 # COLONNE
     #st.sidebar.image(os.path.join(folder_images, "Numerix.png"))
     #st.sidebar.markdown("---")
     
     # Select a page 
-    menu = st.sidebar.selectbox("Choose a page", ("Project Description", "Tweet Analysis", "Dataset analysis"))
-    if menu == 'Project Description':
-        page_description()
-    elif menu == 'Tweet Analysis':  
-        page_analysis()
-    elif menu == 'Dataset analysis':  
-        page_dataset()
+    #menu = st.sidebar.selectbox("Choose a page", ("Project Description", "Tweet Analysis", "Dataset analysis"))
+    #if menu == 'Project Description':
+        #page_description()
+    #elif menu == 'Tweet Analysis':  
+        #page_analysis()
+    #elif menu == 'Dataset analysis':  
+        #page_dataset()
         
     # Link Twitter
-    st.sidebar.markdown("---")
-    st.sidebar.image(open("twitter_logo.png"), width=50)
-    st.sidebar.markdown('<a href="http://twitter.com">Twitter</a>', unsafe_allow_html=True)
+    #st.sidebar.markdown("---")
+    #st.sidebar.image(open("twitter_logo.png"), width=50)
+    #st.sidebar.markdown('<a href="http://twitter.com">Twitter</a>', unsafe_allow_html=True)
     
     # Our names
-    st.sidebar.text("")
-    st.sidebar.write('<h1 style="text-align:center;color:#BDBDBD;font-weight:normal;font-size:13px;">Created by Léna, Aurélien, Florian, Mélina, and Lucie</h1>',unsafe_allow_html=True)
+    #st.sidebar.text("")
+    #st.sidebar.write('<h1 style="text-align:center;color:#BDBDBD;font-weight:normal;font-size:13px;">Created by Léna, Aurélien, Florian, Mélina, and Lucie</h1>',unsafe_allow_html=True)
 
     
     
